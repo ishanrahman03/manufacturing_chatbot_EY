@@ -7,15 +7,15 @@ The **Manufacturing and Supply Chain Assistant Chatbot** is designed to assist u
 
 ## Project Structure
 
-```
-├── app.py                    # Main application logic
-├── database.py                # Database connection and query management
-├── llm.py                     # Language model interaction
-├── main.py                    # Entry point of the chatbot
-├── scraper.py                 # Web scraping functionality (currently non-functional)
-├── search.py                  # Article search functionality
-├── manufacturing_articles.db  # SQLite database of manufacturing and supply chain articles
-```
+
+app.py                    # Main application logic
+database.py                # Database connection and query management
+llm.py                     # Language model interaction
+main.py                    # Entry point of the chatbot
+scraper.py                 # Web scraping functionality (currently non-functional)
+search.py                  # Article search functionality
+manufacturing_articles.db  # SQLite database of manufacturing and supply chain articles
+
 
 ## Files and Descriptions
 
