@@ -5,18 +5,6 @@
 
 The **Manufacturing and Supply Chain Assistant Chatbot** is designed to assist users in retrieving relevant information regarding supply chain and manufacturing processes. This chatbot can search a database of articles, respond to user queries using a natural language model, and was intended to scrape real-time data from the web.
 
-## Project Structure
-
-
-app.py                    # Main application logic
-database.py                # Database connection and query management
-llm.py                     # Language model interaction
-main.py                    # Entry point of the chatbot
-scraper.py                 # Web scraping functionality (currently non-functional)
-search.py                  # Article search functionality
-manufacturing_articles.db  # SQLite database of manufacturing and supply chain articles
-
-
 ## Files and Descriptions
 
 1. **app.py**: Main application for handling user requests and generating responses.
@@ -43,10 +31,15 @@ pip install -r requirements.txt
 
 ### Running the Application
 
+To do the preprocessing activities
 ```bash
 python main.py
 ```
 
+To run the Streamlit application
+```bash
+streamlit run app.py
+```
 ## Database
 
 Uses SQLite to store and retrieve articles.
@@ -57,7 +50,7 @@ Implements keyword-based article search from the database.
 
 ## Web Scraper (Non-Functional)
 
-The `scraper.py` module is currently non-functional due to website limitations (CAPTCHA, dynamic content).
+The `scraper.py` module is currently non-functional due to website limitations (dynamic content).
 
 ## Potential Improvements
 
